@@ -1,0 +1,8 @@
+C:\bennie\crg\src\Repo.SqlServer\Repo.Datamart\sql\debug\Repo.Datamart_Script.PreDeployment.sql
+C:\bennie\crg\src\Repo.SqlServer\Repo.Datamart\sql\debug\Repo.Datamart_Script.PostDeployment.sql
+C:\bennie\crg\src\Repo.SqlServer\Repo.Datamart\sql\debug\Repo.Datamart_Database.sqlsettings
+C:\bennie\crg\src\Repo.SqlServer\Repo.Datamart\sql\debug\Repo.Datamart_Database.sqldeployment
+C:\bennie\crg\src\Repo.SqlServer\Repo.Datamart\sql\debug\Repo.Datamart_Database.sqlcmdvars
+C:\bennie\crg\src\Repo.SqlServer\Repo.Datamart\sql\debug\Repo.Datamart.deploymanifest
+C:\bennie\crg\src\Repo.SqlServer\Repo.Datamart\sql\debug\Repo.Datamart.dbschema
+C:\bennie\crg\src\Repo.SqlServer\Repo.Datamart\obj\Debug\Repo.Datamart.dbschema

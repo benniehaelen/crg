@@ -1,0 +1,173 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>CRG Repo System - Trend Visualizations</title>
+        <link href="../Content/kendo/examples-offline.css" rel="stylesheet" />
+<!--        <link href="../Content/kendo/examples.css" rel="stylesheet" />-->
+        <link href="../Content/kendo/kendo.moonlight.css" rel="stylesheet" />
+        <link href="../Content/kendo.dataviz.min.css" rel="stylesheet" />
+<!--        <link href="../Content/kendo.dataviz.black.min.css" rel="stylesheet" />-->
+        <link href="../Content/kendo/kendo.dataviz.moonlight.min.css" rel="stylesheet" />
+        <link href="../Content/Trend.css" rel="stylesheet" />
+    
+        <script src="../Scripts/jquery.min.js"></script>
+        <script src="../Scripts/kendo.web.min.js"></script>
+        <script src="../Scripts/kendo.dataviz.min.js"></script>
+<!--        <script src="//cdn.kendostatic.com/2013.1.319/js/kendo.all.min.js"></script>-->
+    </head>
+<body>
+        <div id="trendReport">
+            <div id="chartWrapper">
+                <table width='800' valign='top'  style="background-color: black; margin-left: 100px">
+                    <tr>
+                        <td>
+                        <img src="../Images/crg-logo.gif" alt="Capital Recovery Group - Powersport Recovery Solutions"width="535" height="130"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div id="year-filtering-tabs" class="filtering-tabs"></div>
+                            <h5 class="example-subtitle">Reposession Metrics</h5>
+                            <span class="metric">throughout <span class="selected-year"></span></span>
+                            <div id="chart-type-chooser">
+                                <strong class="example-subtitle radio-group-label">Chart type</strong>
+                                <ul class="radio-group">
+                                    <li><input type="radio" name="chart-type" value="column" id="chart-type-area" ><label for="chart-type-area">Area</label></li>
+                                    <li><input type="radio" name="chart-type" value="line" id="chart-type-line" checked><label for="chart-type-line">Line</label></li>
+                                </ul>
+                            </div>
+                            <div id="example" class="k-content">
+                                <div class="chart-wrapper">
+                                    <div id="chart" style="background: center no-repeat url('../images/world-map.png');"></div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="33" width="1000" background="../images/bottom-bg.jpg" style="background-repeat: no-repeat">
+                            <div align="center">
+                                <span>Copyright 2013 Capital Recovery Group, LLC. All rights reserved.</span>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+    <script>
+        var selectedYear = 2013;
+        var seriesType = "line";
+
+        $(document).ready(function () {
+            setTimeout(function () {
+                
+
+                // Initialize the chart with a delay to make sure
+                // the initial animation is visible
+                createChart();
+
+                initTabStrip();
+                
+                $("#example").bind("kendo:skinChange", function (e) {
+                    createChart();
+                });
+            }, 400);
+        });
+
+        function initTabStrip() {
+            $("#year-filtering-tabs").kendoTabStrip({
+                dataSource: ["2009", "2010", "2011", "2012", "2013"],
+                theme: "moonlight",
+                change: function (e) {
+                    selectedYear = this.value();
+
+                    $(".selected-year").text(selectedYear);
+
+                    //stocksDataSource.read();
+                    createChart();
+
+                    initChartEvents();
+                }
+            }).data("kendoTabStrip").select(4);
+        }
+
+        function initChartEvents()
+        {
+            $("[name=chart-type]").on("click", function () {
+                var chart = $("#chart").data("kendoChart");
+                var newSeriesType = $(this).val();
+                seriesType = newSeriesType;
+                createChart();
+            });
+        }
+        
+        function createChart() {
+
+            var params = { "RepoStatus": 1, "StartingYear": selectedYear, "EndingYear": selectedYear, "CaseWorkerKey": undefined };
+            $.post('../api/StatusCountValues', params, function (theData) {
+                createActualChart(theData);
+            }, 'json');
+
+        }
+
+        function createActualChart(theChartData) {
+            $("#chart").kendoChart({
+                title: {
+                    text: "Repo Status Analysis"
+                },
+                theme: "moonlight",
+                legend: {
+                    position: "bottom"
+                },
+                chartArea: {
+                    background: ""
+                },
+                seriesDefaults: {
+                    type: seriesType
+                },
+                dataSource: theChartData,
+                series: [{
+                    name: "Reposessed",
+                    field: "Repossessed"
+                }, {
+                    name: "On Hold",
+                    field: "OnHold",
+                }, {
+                    name: "Closed",
+                    field: "Closed",
+                },  {
+                    name: "Open",
+                    field: "Open",
+                }, {
+                    name: "Closed Pos",
+                    field: "ClosedPositiveResolution",
+                }],
+                valueAxis: {
+                    labels: {
+                        format: "{0}"
+                    },
+                    line: {
+                        visible: false
+                    },
+                    axisCrossingValue: -10
+                },
+                categoryAxis: {
+                    field: "MonthName",
+                    labels : { step: 1},
+                    maxDateGroups: 12,
+                    majorGridLines: {
+                        visible: false
+                    }
+                },
+                tooltip: {
+                    visible: true,
+                    format: "{0}",
+                    template: "#= series.name #: #= value #"
+                }
+            });
+
+        }
+
+    </script>
+</body>
+</html>

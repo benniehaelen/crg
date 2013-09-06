@@ -1,0 +1,33 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="404c1e14-adf9-4574-9b2b-2ef4368883b9" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Repo Datamart</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>Fact Repo</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="2f96f538-73f9-43cd-8b1d-fcd8366eb6af">
+          <ID>Fact Repo</ID>
+          <Name>Fact Repo</Name>
+          <CreatedTimestamp>2013-04-16T00:28:56.75Z</CreatedTimestamp>
+          <LastSchemaUpdate>2013-04-30T05:33:07.846667Z</LastSchemaUpdate>
+          <LastProcessed>2013-04-30T05:38:27.28Z</LastProcessed>
+          <State>Processed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="cac77ec5-f98a-4465-ab15-11096ac109d6">
+            <DataSourceViewID>Repo Datamart</DataSourceViewID>
+            <TableID>DW_FactRepo</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+          <ProactiveCaching dwd:design-time-name="cee1ad6a-5292-4717-bacc-2ce7e1f28fb7">
+            <SilenceInterval>-PT1S</SilenceInterval>
+            <Latency>-PT1S</Latency>
+            <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+            <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="3925dbae-a04f-447f-9b90-af8e97e97800" />
+          </ProactiveCaching>
+          <EstimatedSize>26478</EstimatedSize>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>

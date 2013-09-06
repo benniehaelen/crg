@@ -1,0 +1,5 @@
+C:\bennie\crg\DownloadRepoData\DownloadRepoData\bin\Debug\DownloadRepoData.exe
+C:\bennie\crg\DownloadRepoData\DownloadRepoData\bin\Debug\DownloadRepoData.pdb
+C:\bennie\crg\DownloadRepoData\DownloadRepoData\obj\Debug\DownloadRepoData.csprojResolveAssemblyReference.cache
+C:\bennie\crg\DownloadRepoData\DownloadRepoData\obj\Debug\DownloadRepoData.exe
+C:\bennie\crg\DownloadRepoData\DownloadRepoData\obj\Debug\DownloadRepoData.pdb

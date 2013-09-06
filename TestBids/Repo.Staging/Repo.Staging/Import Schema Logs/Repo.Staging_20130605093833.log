@@ -1,0 +1,10 @@
+6/5/2013 3:38:33 PM	This log contains information about the import schema operation into project 'Repo.Staging' on computer 'BIGFILE' by user 'administrator'.
+6/5/2013 3:38:33 PM	Creating database project...
+6/5/2013 3:38:33 PM	Done
+6/5/2013 3:38:34 PM	Import of database schema has started.
+6/5/2013 3:38:37 PM	Adding all files to the project...
+6/5/2013 3:38:38 PM	Finished adding all files to the project.
+6/5/2013 3:38:38 PM	Done
+6/5/2013 3:38:38 PM	Import of database schema is complete.
+6/5/2013 3:38:38 PM	A summary of the import operation was saved to the log file C:\bennie\crg\TestBids\Repo.Staging\Repo.Staging\Import Schema Logs\Repo.Staging_20130605093833.log.
+6/5/2013 3:38:38 PM	Click Finish to continue...

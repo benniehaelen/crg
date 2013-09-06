@@ -1,0 +1,3 @@
+﻿ALTER TABLE [DW].[FactRepo]
+    ADD CONSTRAINT [FK_FactRepo_DimClient] FOREIGN KEY ([ClientKey]) REFERENCES [DW].[DimClient] ([ClientKey]) ON DELETE NO ACTION ON UPDATE NO ACTION;
+

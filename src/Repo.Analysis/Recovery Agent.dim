@@ -1,0 +1,443 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="f639aa4c-450a-482c-bb4f-72a1e894c52a" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Recovery Agent</ID>
+  <Name>Recovery Agent</Name>
+  <CreatedTimestamp>2013-04-30T03:16:00.666667Z</CreatedTimestamp>
+  <LastSchemaUpdate>2013-04-30T05:33:07.76Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="12" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="36" scrolltop="-4409" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="84" x="10160" y="16325" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="DimRecoveryAgent" left="7077" top="212" logicalid="6" controlid="1" masterid="0" hint1="0" hint2="0" width="3651" height="2725" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000430e0000a50a0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="DW_DimRecoveryAgent" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="DimAddress" left="721" top="5549" logicalid="7" controlid="2" masterid="0" hint1="0" hint2="0" width="3254" height="3995" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000b60c00009b0f0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="DW_DimAddress" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="DimRecoveryAgentAddress" left="20" top="0" logicalid="8" controlid="3" masterid="0" hint1="0" hint2="0" width="4657" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000311200004d0c0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="DW_DimRecoveryAgentAddress" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="4377" top="1175" logicalid="9" controlid="4" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_DimRecoveryAgentAddress_DimRecoveryAgent]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="3" sourceattachpoint="18" destattachpoint="23" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="7077" y="1574" />
+              <point x="4677" y="1574" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="1949" top="2849" logicalid="10" controlid="5" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_DimRecoveryAgentAddress_DimAddress]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="3" sourceattachpoint="4" destattachpoint="9" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="2348" y="5549" />
+              <point x="2348" y="3149" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>36</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-4409</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>84</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>2013-04-30T05:38:27.076667Z</LastProcessed>
+  <State>Processed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="7e8fa743-7cb4-4820-b01c-da452b534f4e">
+    <DataSourceViewID>Repo Datamart</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="4821ad76-2a3c-43a8-bda7-23d8afc90780">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Language>1033</Language>
+  <Collation>Latin1_General_CI_AS</Collation>
+  <UnknownMemberName>Unknown</UnknownMemberName>
+  <Attributes>
+    <Attribute dwd:design-time-name="328bf547-52b9-4833-a695-1a329750e4d9">
+      <ID>Recovery Agent Address Key</ID>
+      <Name>Recovery Agent Address Key</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="1018758a-35d0-40ab-aded-ea199fa5d6f8">
+          <NullProcessing>UnknownMember</NullProcessing>
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5f3eaacc-e85a-4bab-8a46-f75d73d11cd0">
+            <TableID>DW_DimRecoveryAgentAddress</TableID>
+            <ColumnID>RecoveryAgentAddressKey</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="bea164f4-1b6e-4d5c-b299-dd41e17aac4f">
+        <NullProcessing>ZeroOrBlank</NullProcessing>
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="dc12ee21-1b1b-460d-bc91-9ee06263ffb0">
+          <TableID>DW_DimRecoveryAgentAddress</TableID>
+          <ColumnID>RecoveryAgentAddressKey</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="51cc48a3-ccfc-4961-9eec-a456a90f520a">
+          <AttributeID>Recovery Agent Key</AttributeID>
+          <Name>Recovery Agent Key</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="6c896c10-30b7-4afb-a09f-c63c4d8b3c94">
+          <AttributeID>Address Key</AttributeID>
+          <Name>Address Key</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="fff6dafa-e8d6-4a4d-8dd9-ae684f70df2c">
+          <AttributeID>Agent Index</AttributeID>
+          <Name>Agent Index</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="3b8c22fc-4e0a-4303-b39e-2b5c8ecd66ec">
+      <ID>Recovery Agent Key</ID>
+      <Name>Recovery Agent Key</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="1e342893-bb6d-4b86-adc8-9b0b2c1fd87a">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="27db7cd6-09f6-4fa8-9839-979ce93f024b">
+            <TableID>DW_DimRecoveryAgent</TableID>
+            <ColumnID>RecoveryAgentKey</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="23b6e8b4-4ea7-46ea-a200-1d46eb9d74a3">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="947dd5f7-287f-4eb6-ab66-bae55d0cf374">
+          <TableID>DW_DimRecoveryAgent</TableID>
+          <ColumnID>RecoveryAgentKey</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="6a525832-ed18-4919-a4fa-05e4b869f238">
+          <AttributeID>Agent Name</AttributeID>
+          <Name>Agent Name</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="07265116-b497-4733-8637-9637df5a669b">
+      <ID>Agent Name</ID>
+      <Name>Agent Name</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="a1c3fbc0-fc28-4439-99ce-ff61578abbca">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b76c3fc6-fc4a-45a1-b17e-99166424f49e">
+            <TableID>DW_DimRecoveryAgent</TableID>
+            <ColumnID>AgentName</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="574ce849-eb88-4644-b896-a5fd5c0967ab">
+        <DataType>WChar</DataType>
+        <DataSize>100</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="99c5dec0-9315-4e56-a405-82dae272a0aa">
+          <TableID>DW_DimRecoveryAgent</TableID>
+          <ColumnID>AgentName</ColumnID>
+        </Source>
+      </NameColumn>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="8d280c29-50ef-4031-b185-e144e842aebd">
+      <ID>Address Key</ID>
+      <Name>Address Key</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="60934971-fd14-483b-8d22-9a23bde1b0a1">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e3476b75-627c-44fb-a6c3-11f0cd78cbc8">
+            <TableID>DW_DimAddress</TableID>
+            <ColumnID>AddressKey</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="aab12ed1-f4ec-4c6a-8b6e-0410907e5868">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="9ee0faab-7eb1-4da2-81fd-ca0933246532">
+          <TableID>DW_DimAddress</TableID>
+          <ColumnID>AddressKey</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="7af0285c-73b8-4fda-b0d6-2ef60d8af3f5">
+          <AttributeID>Street Address</AttributeID>
+          <Name>Street Address</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="efb47906-5c61-4447-862a-3a406247f75f">
+          <AttributeID>City</AttributeID>
+          <Name>City</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="df4c6652-9ad2-4810-8f19-aa7da657dab5">
+          <AttributeID>State Code</AttributeID>
+          <Name>State Code</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="410849f2-bc7f-4d1a-bdc6-43ddfa510479">
+          <AttributeID>Zip Code</AttributeID>
+          <Name>Zip Code</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="f830dcd8-e334-42c3-b572-249f3e1e6356">
+      <ID>Street Address</ID>
+      <Name>Street Address</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="de3e53a4-cf6f-467a-a3f5-cfed72fd4e19">
+          <DataType>WChar</DataType>
+          <DataSize>250</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="45c1dd14-59de-4b4e-b425-f95f4024bc54">
+            <TableID>DW_DimAddress</TableID>
+            <ColumnID>StreetAddress</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="fa509378-2d12-4ba7-8aa4-8287b2187e2f">
+        <DataType>WChar</DataType>
+        <DataSize>250</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="eca11821-2440-48ad-b8e7-c5e2e4359b28">
+          <TableID>DW_DimAddress</TableID>
+          <ColumnID>StreetAddress</ColumnID>
+        </Source>
+      </NameColumn>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="48d90936-aef3-4df0-8cfd-f5617589446c">
+      <ID>City</ID>
+      <Name>City</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f396607f-a48f-4497-b936-8b314ddc5e76">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="add5378c-911d-4bb2-a3ae-d62f7ecc6901">
+            <TableID>DW_DimAddress</TableID>
+            <ColumnID>City</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="b1b2620c-a53c-4efa-8e10-cc8e5397ae94">
+        <DataType>WChar</DataType>
+        <DataSize>50</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="43cafc8e-6a1e-4dc3-b210-e000a683c4bd">
+          <TableID>DW_DimAddress</TableID>
+          <ColumnID>City</ColumnID>
+        </Source>
+      </NameColumn>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="5dfcc267-db05-4337-ad08-77ee8355bb62">
+      <ID>State Code</ID>
+      <Name>State Code</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="8f01ccfd-e6b4-4c35-ae56-94c6b4ceb81d">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c6d51aea-df54-41db-b24e-8b7876c1b1f8">
+            <TableID>DW_DimAddress</TableID>
+            <ColumnID>StateCode</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="f8904478-4b86-459a-9679-09c7aaeef90d">
+        <DataType>WChar</DataType>
+        <DataSize>50</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="4a71ffac-e72a-4757-9e0d-fb0bbb793ff9">
+          <TableID>DW_DimAddress</TableID>
+          <ColumnID>StateCode</ColumnID>
+        </Source>
+      </NameColumn>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="ce575bce-5538-41b5-9313-deab5c955234">
+      <ID>Zip Code</ID>
+      <Name>Zip Code</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="103d4237-5bba-41f5-a13f-9579570324b0">
+          <DataType>WChar</DataType>
+          <DataSize>10</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b6980590-6f1b-4255-ab87-d04c475426a9">
+            <TableID>DW_DimAddress</TableID>
+            <ColumnID>ZipCode</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="04195090-daee-4fab-829b-90a1d79ce27f">
+        <DataType>WChar</DataType>
+        <DataSize>10</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="b73aebe0-e1bf-4e25-b36e-10a8d74dedef">
+          <TableID>DW_DimAddress</TableID>
+          <ColumnID>ZipCode</ColumnID>
+        </Source>
+      </NameColumn>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="7676502c-12ff-464b-aa15-0125bc6e96fd">
+      <ID>Agent Index</ID>
+      <Name>Agent Index</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="3d4cbf7c-8975-45d7-bc17-c4499e254465">
+          <DataType>WChar</DataType>
+          <DataSize>1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f7f0d6c8-ada3-49e2-b2e2-16503d9d66ba">
+            <TableID>DW_DimRecoveryAgent</TableID>
+            <ColumnID>Agent_x0020_Index</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="0cde2180-3e1a-4551-a2fe-f15d656076ac">
+        <DataType>WChar</DataType>
+        <DataSize>1</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="64978bb4-cf55-40de-a9b5-da73c095440d">
+          <TableID>DW_DimRecoveryAgent</TableID>
+          <ColumnID>Agent_x0020_Index</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="8511d5bd-761b-45af-9456-0b7aa682c3ca">
+      <ID>Hierarchy</ID>
+      <Name>Recovery Agent By Index</Name>
+      <Levels>
+        <Level dwd:design-time-name="fe7b00b2-92e2-473e-8910-6e17b7b87c88">
+          <ID>Agent Index</ID>
+          <Name>Agent Index</Name>
+          <SourceAttributeID>Agent Index</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="a0ec66f3-7f66-48ca-b8da-8e6832bc8fbb">
+          <ID>Agent Name</ID>
+          <Name>Agent Name</Name>
+          <SourceAttributeID>Agent Name</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy dwd:design-time-name="3a421154-b8b0-4ec1-b215-c2f9207c40ca">
+      <ID>Hierarchy 1</ID>
+      <Name>Recovery Agent By Address</Name>
+      <Levels>
+        <Level dwd:design-time-name="4ab0ea0a-80fd-43b7-8255-3cda2435c81e">
+          <ID>State Code</ID>
+          <Name>State Code</Name>
+          <SourceAttributeID>State Code</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="ec8e81a0-0fc3-4917-8de4-c04f593d8a64">
+          <ID>City</ID>
+          <Name>City</Name>
+          <SourceAttributeID>City</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="7ae4c2c0-b416-4fef-96de-e62c5787292d">
+          <ID>Agent Name</ID>
+          <Name>Agent Name</Name>
+          <SourceAttributeID>Agent Name</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ProactiveCaching dwd:design-time-name="b5633ad0-02f7-471b-86c7-4c9e64d3de3f">
+    <SilenceInterval>-PT1S</SilenceInterval>
+    <Latency>-PT1S</Latency>
+    <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+    <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+    <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="a2729043-0241-4d91-95ca-95968b6d2258" />
+  </ProactiveCaching>
+</Dimension>

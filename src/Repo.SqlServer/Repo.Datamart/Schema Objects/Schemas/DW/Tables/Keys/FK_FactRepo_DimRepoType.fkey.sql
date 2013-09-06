@@ -1,0 +1,3 @@
+﻿ALTER TABLE [DW].[FactRepo]
+    ADD CONSTRAINT [FK_FactRepo_DimRepoType] FOREIGN KEY ([RepoTypeKey]) REFERENCES [DW].[DimRepoType] ([RepoTypeKey]) ON DELETE NO ACTION ON UPDATE NO ACTION;
+

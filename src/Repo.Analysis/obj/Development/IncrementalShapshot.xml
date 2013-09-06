@@ -1,0 +1,131 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>Repo Analysis</Database>
+    <Server>localhost</Server>
+    <ConnectionString>DataSource=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>ZRE0eZpazQFiGXTQOYheiw==6/7/2013 3:07:30 PM6/7/2013 3:06:18 PM</TimeStamp>
+        <ID>
+          <String>Repo Datamart</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>TgTBLefXz+UxglQnYFyo6A==6/9/2013 6:02:03 PM6/7/2013 3:06:18 PM</TimeStamp>
+        <ID>
+          <String>Repo Datamart</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>2GX8LM8mjuckN+L9VLpKlA==6/7/2013 3:06:14 PM6/7/2013 3:06:15 PM</TimeStamp>
+        <ID>
+          <String>Adjuster</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>LVDk6EBtSUJ7tuUP6c1ZGA==6/9/2013 6:18:18 PM6/7/2013 3:06:15 PM</TimeStamp>
+        <ID>
+          <String>Borrower</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>OSUDMfzbRDro5FLKehYcqA==6/7/2013 3:06:14 PM6/7/2013 3:06:16 PM</TimeStamp>
+        <ID>
+          <String>Case Worker</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>SUTpqqzqMWO9fpiwzBDR1w==6/7/2013 3:06:14 PM6/7/2013 3:06:16 PM</TimeStamp>
+        <ID>
+          <String>Fact Repo</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>iCC7M2x0QzyZEVyP2wuzAw==6/9/2013 5:48:47 PM6/7/2013 3:06:16 PM</TimeStamp>
+        <ID>
+          <String>Order Date</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>ruZjEiy5yKtlnlIZqxs+zQ==6/9/2013 6:45:56 PM6/7/2013 3:06:17 PM</TimeStamp>
+        <ID>
+          <String>Recovery Agent</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>jN3W4wYcDuBWQIhpO5mXLw==6/7/2013 3:06:14 PM6/7/2013 3:06:18 PM</TimeStamp>
+        <ID>
+          <String>Repo Details</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>gRxaCHAMRIqMhP6Z0KvpPg==6/7/2013 3:06:14 PM6/7/2013 3:06:19 PM</TimeStamp>
+        <ID>
+          <String>Repo Status</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>lV6Pm1KAaxfU+sWV0C5Yuw==6/7/2013 3:06:14 PM6/7/2013 3:06:19 PM</TimeStamp>
+        <ID>
+          <String>Repo Type</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>L4TO9OWLmE5ZQ7llohCDkA==6/9/2013 6:12:04 PM6/7/2013 3:06:16 PM</TimeStamp>
+        <ID>
+          <String>Dim Client</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>TNJCXf5cpJip4bwVJsmKtA==6/9/2013 6:40:48 PM6/9/2013 6:31:08 PM</TimeStamp>
+        <ID>
+          <String>Dim Vehicle Make Model</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>wBaDcLJCNBMRKw0z/Bml7Q==6/9/2013 6:50:32 PM6/7/2013 3:06:17 PM2wlah8/DqyEE/Vt0p/zjJQ==6/9/2013 5:49:52 PM6/7/2013 3:06:17 PM</TimeStamp>
+        <ID>
+          <String>Repo Datamart</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>P2Lw+UtAm4U3qDDYzmEpvg==6/7/2013 3:06:15 PM6/7/2013 3:06:15 PM</TimeStamp>
+      <ID>
+        <String>Repo Analysis</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2013-06-10T00:50:33.366667Z</LastDeployed>
+</DeploymentSnapshot>

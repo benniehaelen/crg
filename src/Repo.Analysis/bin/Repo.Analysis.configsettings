@@ -1,0 +1,68 @@
+﻿<ConfigurationSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Database>
+    <DataSources>
+      <DataSource>
+        <ID>Repo Datamart</ID>
+        <ConnectionString>Provider=SQLNCLI10.1;Data Source=localhost;Integrated Security=SSPI;Initial Catalog=Repo.Datamart</ConnectionString>
+        <ImpersonationInfo>
+          <ImpersonationMode>ImpersonateServiceAccount</ImpersonationMode>
+          <ImpersonationInfoSecurity>Unchanged</ImpersonationInfoSecurity>
+        </ImpersonationInfo>
+      </DataSource>
+    </DataSources>
+    <Dimensions>
+      <Dimension>
+        <ID>Adjuster</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Borrower</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Case Worker</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Fact Repo</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Order Date</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Recovery Agent</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Repo Details</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Repo Status</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Repo Type</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dim Client</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dim Vehicle Make Model</ID>
+      </Dimension>
+    </Dimensions>
+    <Cubes>
+      <Cube>
+        <ID>Repo Datamart</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>Fact Repo</ID>
+            <Partitions>
+              <Partition>
+                <ID>Fact Repo</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+    </Cubes>
+    <DataSourceImpersonationInfo>
+      <ImpersonationMode>Default</ImpersonationMode>
+      <ImpersonationInfoSecurity>Unchanged</ImpersonationInfoSecurity>
+    </DataSourceImpersonationInfo>
+  </Database>
+</ConfigurationSettings>

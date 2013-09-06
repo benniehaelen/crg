@@ -1,0 +1,7 @@
+C:\bennie\crg\CRG.Reporting\CRG.Reporting.Repository\bin\Debug\CRG.Reporting.Repository.dll
+C:\bennie\crg\CRG.Reporting\CRG.Reporting.Repository\bin\Debug\CRG.Reporting.Repository.pdb
+C:\bennie\crg\CRG.Reporting\CRG.Reporting.Repository\bin\Debug\CRG.Reporting.Domain.dll
+C:\bennie\crg\CRG.Reporting\CRG.Reporting.Repository\bin\Debug\CRG.Reporting.Domain.pdb
+C:\bennie\crg\CRG.Reporting\CRG.Reporting.Repository\obj\Debug\CRG.Reporting.Repository.csprojResolveAssemblyReference.cache
+C:\bennie\crg\CRG.Reporting\CRG.Reporting.Repository\obj\Debug\CRG.Reporting.Repository.dll
+C:\bennie\crg\CRG.Reporting\CRG.Reporting.Repository\obj\Debug\CRG.Reporting.Repository.pdb

@@ -1,0 +1,342 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="7a35e53d-a14e-4e75-a35f-b357f417ce75" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Borrower</ID>
+  <Name>Borrower</Name>
+  <CreatedTimestamp>2013-04-16T00:28:56.643333Z</CreatedTimestamp>
+  <LastSchemaUpdate>2013-04-30T05:33:07.323333Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="8" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2718" scrolltop="-2305" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="10160" y="16325" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="DimBorrower" left="20" top="6395" logicalid="4" controlid="1" masterid="0" hint1="0" hint2="0" width="3784" height="4419" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000c80e000043110000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="DW_DimBorrower" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="DimAddress" left="285" top="0" logicalid="5" controlid="2" masterid="0" hint1="0" hint2="0" width="3254" height="3995" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000b60c00009b0f0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="DW_DimAddress" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="1513" top="3496" logicalid="6" controlid="3" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_DimBorrower_DimAddress]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="1" sourceattachpoint="5" destattachpoint="6" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="1912" y="3995" />
+              <point x="1912" y="6395" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-2718</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-2305</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>2013-04-30T05:38:26.623333Z</LastProcessed>
+  <State>Processed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="910ea0d6-b7a2-4018-8cae-89d60e28e7f3">
+    <DataSourceViewID>Repo Datamart</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="14f531ab-4aec-4d96-9e41-3e85eb987f6d">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Language>1033</Language>
+  <Collation>Latin1_General_CI_AS</Collation>
+  <UnknownMemberName>Unknown</UnknownMemberName>
+  <Attributes>
+    <Attribute dwd:design-time-name="32e93846-6b0d-4fbc-bb73-9cf7d7aaaf43">
+      <ID>Borrower Key</ID>
+      <Name>Borrower Key</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="bfc1ff8c-40dd-4d63-aa6b-4dbcda24a1dc">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="db77451c-65b4-4a1a-81ac-0a5cdbb604db">
+            <TableID>DW_DimBorrower</TableID>
+            <ColumnID>BorrowerKey</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="6efe5b10-89d5-4bca-b349-e367428ae6e9">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="2dcfda6b-df63-4280-8d88-178262439a4c">
+          <TableID>DW_DimBorrower</TableID>
+          <ColumnID>BorrowerKey</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="96f096fd-08e8-4b7c-b285-8fbceadc0c24">
+          <AttributeID>Address Key</AttributeID>
+          <Name>Address Key</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="58da663f-22f0-44a7-b478-23b282ef778f">
+          <AttributeID>Borrower Name</AttributeID>
+          <Name>Borrower Name</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="cb8c261e-e93c-44f0-903f-3fe51ed72efa">
+          <AttributeID>Street Address</AttributeID>
+          <Name>Street Address</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="41e90800-48df-4333-a7b5-0a59902e42cc">
+          <AttributeID>City</AttributeID>
+          <Name>City</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="6eb5d383-4fdd-4c1e-b06d-846815710d21">
+          <AttributeID>State Code</AttributeID>
+          <Name>State Code</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="c0d3ff14-5245-463f-b063-4c57c95902e9">
+          <AttributeID>Zip Code</AttributeID>
+          <Name>Zip Code</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="52397fe7-2826-4fb7-9d7c-35bf72be1dba">
+      <ID>Address Key</ID>
+      <Name>Address Key</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="3dc01e2d-bf04-47b5-a506-1d88bea9bee6">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c571f1b0-76a7-4e4e-841d-777c72246f8f">
+            <TableID>DW_DimAddress</TableID>
+            <ColumnID>AddressKey</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="f71903bd-1708-41f2-b19d-7797bdcc3625">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="ce7a97d9-343b-42b6-81e7-e1d94ecba22e">
+          <TableID>DW_DimAddress</TableID>
+          <ColumnID>AddressKey</ColumnID>
+        </Source>
+      </NameColumn>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="828cbcb4-2b10-48b3-8ea3-dee65d3287de">
+      <ID>Borrower Name</ID>
+      <Name>Borrower Name</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ebcfbbdf-c6c7-407f-a236-161723b3b6d2">
+          <DataType>WChar</DataType>
+          <DataSize>75</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9aa7fb6e-9d99-43fa-a481-df1ca52788a0">
+            <TableID>DW_DimBorrower</TableID>
+            <ColumnID>BorrowerName</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="bf51e383-6a5f-497d-9ad7-0029295c2293">
+        <DataType>WChar</DataType>
+        <DataSize>75</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="3a3b9804-d696-4406-b87c-e3425c9db204">
+          <TableID>DW_DimBorrower</TableID>
+          <ColumnID>BorrowerName</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="10e6fb9b-8555-4861-bd0e-cb6836c0d5f9">
+      <ID>Street Address</ID>
+      <Name>Street Address</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="5c6d1371-e254-474c-a603-1492b0097d96">
+          <DataType>WChar</DataType>
+          <DataSize>250</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e916e6a6-6388-45a7-9e09-56e7fe783864">
+            <TableID>DW_DimAddress</TableID>
+            <ColumnID>StreetAddress</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="22f0fbc8-53b8-4f28-ac1f-aed44544d8b4">
+        <DataType>WChar</DataType>
+        <DataSize>250</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="400527d2-0f00-420c-8f10-8f1e2cca9a8d">
+          <TableID>DW_DimAddress</TableID>
+          <ColumnID>StreetAddress</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="990d78e2-ceb9-4077-abca-de325c6de938">
+      <ID>City</ID>
+      <Name>City</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="413a5ff1-5ebc-4251-847e-9e785242a616">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="dbce004f-81bc-4e71-a8c2-2657dd4b7a24">
+            <TableID>DW_DimAddress</TableID>
+            <ColumnID>City</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="78d6590e-4caf-448f-a910-d52e414c91cf">
+        <DataType>WChar</DataType>
+        <DataSize>50</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="e7eff695-6717-436d-8778-9c7746fee453">
+          <TableID>DW_DimAddress</TableID>
+          <ColumnID>City</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="8bc8b34c-71f4-4741-8a80-461d9bf45921">
+      <ID>State Code</ID>
+      <Name>State Code</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ee7e45d4-17fe-42d3-9fae-f1af000672b7">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7df15d35-3a70-4e3f-b702-f15e3b3192ba">
+            <TableID>DW_DimAddress</TableID>
+            <ColumnID>StateCode</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="7f066ba8-0a2d-4395-aef1-3de202ad307a">
+        <DataType>WChar</DataType>
+        <DataSize>50</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="873d5961-3751-47ec-ab4a-decfc59e47ea">
+          <TableID>DW_DimAddress</TableID>
+          <ColumnID>StateCode</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="a360c1ff-80d5-45d7-ab42-0203dbf44b9d">
+      <ID>Zip Code</ID>
+      <Name>Zip Code</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="5d1fa847-5aba-48a6-920f-45393b9f8d1e">
+          <DataType>WChar</DataType>
+          <DataSize>10</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4b057f03-3792-4ecf-ba50-7aa3dceea5e2">
+            <TableID>DW_DimAddress</TableID>
+            <ColumnID>ZipCode</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="8c45570d-8e04-4068-9784-299f50da9ee0">
+        <DataType>WChar</DataType>
+        <DataSize>10</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="bc4535c5-6842-417c-9f5a-77ad7257513e">
+          <TableID>DW_DimAddress</TableID>
+          <ColumnID>ZipCode</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="7a00bbdf-0645-4afb-bd26-722bbb81c6a9">
+      <ID>Hierarchy</ID>
+      <Name>Borrower Address</Name>
+      <Levels>
+        <Level dwd:design-time-name="2b4af4ca-68fc-4b24-b5d9-4cfdec03a17f">
+          <ID>State Code</ID>
+          <Name>State Code</Name>
+          <SourceAttributeID>State Code</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="8ea48598-3d23-4b4a-9b6e-575d1d212a8e">
+          <ID>City</ID>
+          <Name>City</Name>
+          <SourceAttributeID>City</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="43f8f160-9482-4f25-94b2-44c544c1352b">
+          <ID>Zip Code</ID>
+          <Name>Zip Code</Name>
+          <SourceAttributeID>Zip Code</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="07958c0e-0cb3-4542-bf12-a2efabc70af2">
+          <ID>Street Address</ID>
+          <Name>Street Address</Name>
+          <SourceAttributeID>Street Address</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="63235552-a3ae-4971-b1dc-84ee7af92808">
+          <ID>Borrower Name</ID>
+          <Name>Borrower Name</Name>
+          <SourceAttributeID>Borrower Name</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ProactiveCaching dwd:design-time-name="f419e70d-9184-4c80-83ff-a91601cb46b7">
+    <SilenceInterval>-PT1S</SilenceInterval>
+    <Latency>-PT1S</Latency>
+    <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+    <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+    <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="4d0b5008-8d92-408b-a072-20ca8b12fd3b" />
+  </ProactiveCaching>
+</Dimension>

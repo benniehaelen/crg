@@ -1,0 +1,5 @@
+C:\bennie\crg\CRG.Reporting\CRG.Reporting.Domain\bin\Release\CRG.Reporting.Domain.dll
+C:\bennie\crg\CRG.Reporting\CRG.Reporting.Domain\bin\Release\CRG.Reporting.Domain.pdb
+C:\bennie\crg\CRG.Reporting\CRG.Reporting.Domain\obj\Release\CRG.Reporting.Domain.csprojResolveAssemblyReference.cache
+C:\bennie\crg\CRG.Reporting\CRG.Reporting.Domain\obj\Release\CRG.Reporting.Domain.dll
+C:\bennie\crg\CRG.Reporting\CRG.Reporting.Domain\obj\Release\CRG.Reporting.Domain.pdb

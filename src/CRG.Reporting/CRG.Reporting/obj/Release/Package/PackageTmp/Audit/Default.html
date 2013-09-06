@@ -1,0 +1,140 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>CRG Repo System - Audit Reports</title>
+        <link href="../Content/kendo/examples-offline.css" rel="stylesheet">
+        <link href="../Content/kendo/kendo.common.min.css" rel="stylesheet" />
+        <link href="../Content/kendo/kendo.moonlight.css" rel="stylesheet" />
+    
+        <script src="../Scripts/jquery.min.js"></script>
+        <script src="../Scripts/kendo.web.min.js"></script>
+    </head>
+    <body>
+        
+        <div id="auditReport">
+            <div id="gridWrapper">
+                <table width='1000' valign='top'  style="background-color: black">
+                    <tr>
+                        <td>
+                        <img src="../Images/crg-logo.gif" alt="Capital Recovery Group - Powersport Recovery Solutions" width="535" height="130"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="block" style="font-size: 1.2em; margin-left: 10px">Below is a log of the Recovery Analytics Database data loads:</p>
+                            <div id="grdAudit"></div>    
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="33" width="1000" background="../images/bottom-bg.jpg" style="background-repeat: no-repeat">
+                            <div align="center">
+                                <span>Copyright 2013 Capital Recovery Group, LLC. All rights reserved.</span>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <style scoped>
+            #gridWrapper {
+                width: 1000px;
+                height: 700px;
+                margin: 30px auto;
+                background-color: transparent;
+            }
+        </style>
+
+        <script>
+            $(document).ready(function() {
+                $.get('../api/AuditMaster', null, function(theData) {
+
+                    // Initialize our Grid
+                    initializeGrid(theData);
+                    
+                }, 'json');
+            });
+
+            function initializeGrid(theData) {
+                $("#grdAudit").kendoGrid({
+                    dataSource: {
+                        data: theData,
+                        pageSize: 10
+                    },
+                    scrollable: false,
+                    selectable: "single",
+                    sortable: true,
+                    pageable: {
+                        refresh: true,
+                        pageSizes: true
+                    },
+                    detailInit: detailInit,
+                    dataBound: function () {
+                        // We want to select the first row
+                        this.select("tr:eq(1)");
+                    },
+                    columns: [
+                        {
+                            field: "Key",
+                            width: 25,
+                            title: "Key"
+                        },
+                        {
+                            field: "PackageName",
+                            width: 100,
+                            title: "Package Name"
+                        },
+                        {
+                            field: "PackageSuccessful",
+                            width: 50,
+                            title: "Success?"
+                        },
+                        {
+                            field: "PackageStartDate",
+                            width: 150,
+                            title: "Package Start Date"
+                        },
+                        {
+                            field: "PackageEndDate",
+                            width: 150,
+                            title: "Package End Date"
+                        }]
+                });
+
+            }
+
+            //
+            //  This function load the details grid
+            //
+            function detailInit(e) {
+                $.get('../api/AuditDetail/' + e.data.Key, null, function(theData) {
+
+                    $("<p>Details for this data load:</p>").appendTo(e.detailCell);
+                    $("<div/>").appendTo(e.detailCell).kendoGrid({
+                        dataSource: { 
+                            data: theData,
+                            pageSize: 10
+                        },
+                        scrollable: false,
+                        sortable: true,
+                        pageable: true,
+                        columns: [
+                            { field: "Key", width: 50 },
+                            { field: "PackageSuccessful", title: "Success?", width: 50 },
+                            { field: "PackageName", title:"Package Name", width: 150 },
+                            { field: "PackageVersionMajor", title: "Major Version", width: 30 },
+                            { field: "PackageVersionMinor", title: "Minor Version", width: 30 },
+                            { field: "PackageStartDate", title: "Start", width: 100 },
+                            { field: "PackageEndDate", title: "End", width: 100 }]
+                    });
+
+
+
+
+
+                }, 'json');
+            }
+            
+        </script>
+    </body>
+</html>

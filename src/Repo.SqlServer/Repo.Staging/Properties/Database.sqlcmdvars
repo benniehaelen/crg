@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SqlCommandVariables xmlns="urn:Microsoft.VisualStudio.Data.Schema.Package.SqlCmdVars">
+  <Version>1.0</Version>
+  <Properties>
+    <Property>
+      <PropertyName>ArchiveDirectory</PropertyName>
+      <PropertyValue>data\archive\</PropertyValue>
+    </Property>
+    <Property>
+      <PropertyName>BIShellURL</PropertyName>
+      <PropertyValue />
+    </Property>
+    <Property>
+      <PropertyName>DatabaseServer</PropertyName>
+      <PropertyValue />
+    </Property>
+    <Property>
+      <PropertyName>DataPath</PropertyName>
+      <PropertyValue>C:\Program Files\Microsoft SQL Server\MSSQL10_50.MSSQLSERVER\MSSQL\DATA\</PropertyValue>
+    </Property>
+    <Property>
+      <PropertyName>EmailGroupsJobStatus</PropertyName>
+      <PropertyValue />
+    </Property>
+    <Property>
+      <PropertyName>ExcelFilePath</PropertyName>
+      <PropertyValue>\Data\ExcelFiles\</PropertyValue>
+    </Property>
+    <Property>
+      <PropertyName>FromEmailAddress</PropertyName>
+      <PropertyValue />
+    </Property>
+    <Property>
+      <PropertyName>LogPath</PropertyName>
+      <PropertyValue>C:\Program Files\Microsoft SQL Server\MSSQL10_50.MSSQLSERVER\MSSQL\DATA\</PropertyValue>
+    </Property>
+    <Property>
+      <PropertyName>OLAPCubeDB</PropertyName>
+      <PropertyValue />
+    </Property>
+    <Property>
+      <PropertyName>OLAPServer</PropertyName>
+      <PropertyValue />
+    </Property>
+    <Property>
+      <PropertyName>PackagePath</PropertyName>
+      <PropertyValue>C:\bennie\crg\src\Repo.Integration\</PropertyValue>
+    </Property>
+    <Property>
+      <PropertyName>SourceFileDirectory</PropertyName>
+      <PropertyValue />
+    </Property>
+    <Property>
+      <PropertyName>StagingBasePath</PropertyName>
+      <PropertyValue>C:\bennie\crg\src\Repo.Integration\</PropertyValue>
+    </Property>
+    <Property>
+      <PropertyName>TempDownloadFolder</PropertyName>
+      <PropertyValue>C:\bennie\crg\src\Repo.Integration\data\CsvFiles</PropertyValue>
+    </Property>
+    <Property>
+      <PropertyName>ThirtyTwoDtexecDirectory</PropertyName>
+      <PropertyValue />
+    </Property>
+  </Properties>
+</SqlCommandVariables>

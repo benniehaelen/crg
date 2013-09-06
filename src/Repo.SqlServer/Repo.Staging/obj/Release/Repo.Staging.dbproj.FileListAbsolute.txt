@@ -1,0 +1,8 @@
+C:\bennie\crg\src\Repo.SQLServer\Repo.Staging\sql\release\Repo.Staging_Script.PreDeployment.sql
+C:\bennie\crg\src\Repo.SQLServer\Repo.Staging\sql\release\Repo.Staging_Script.PostDeployment.sql
+C:\bennie\crg\src\Repo.SQLServer\Repo.Staging\sql\release\Repo.Staging_Database.sqlsettings
+C:\bennie\crg\src\Repo.SQLServer\Repo.Staging\sql\release\Repo.Staging_Database.sqldeployment
+C:\bennie\crg\src\Repo.SQLServer\Repo.Staging\sql\release\Repo.Staging_Database.sqlcmdvars
+C:\bennie\crg\src\Repo.SQLServer\Repo.Staging\sql\release\Repo.Staging.deploymanifest
+C:\bennie\crg\src\Repo.SQLServer\Repo.Staging\sql\release\Repo.Staging.dbschema
+C:\bennie\crg\src\Repo.SQLServer\Repo.Staging\obj\Release\Repo.Staging.dbschema

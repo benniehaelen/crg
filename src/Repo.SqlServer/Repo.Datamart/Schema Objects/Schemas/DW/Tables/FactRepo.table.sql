@@ -1,0 +1,26 @@
+﻿CREATE TABLE [DW].[FactRepo] (
+    [FactRepoKey]             INT            IDENTITY (1, 1) NOT NULL,
+    [CaseNumber]              VARCHAR (50)   NOT NULL,
+    [RepoDetailsKey]          INT            NOT NULL,
+    [ClientKey]               INT            NOT NULL,
+    [BorrowerKey]             INT            NOT NULL,
+    [VehicleMakeModelKey]     INT            NOT NULL,
+    [RepoTypeKey]             INT            NOT NULL,
+    [RepoStatusKey]           INT            NOT NULL,
+    [OrderDateKey]			  INT            NOT NULL,
+    [RepoDateKey]			  INT            NOT NULL,
+    [CloseDateKey]			  INT            NOT NULL,
+    [HoldDateKey]			  INT            NOT NULL,
+    [CaseWorkerKey]           INT            NOT NULL,
+    [AdjusterKey]             INT            NOT NULL,
+    [RecoveryAgentAddressKey] INT            NOT NULL,
+    [RepoAgeKey]              INT            NOT NULL,
+    [AssigneeKey]             INT            NOT NULL,
+    [LienHolderKey]           INT            NOT NULL,
+    [AccountBalance]          MONEY          NULL,
+    [AmountPastDue]           MONEY          NULL,
+    [Type1HashValue]          VARBINARY (25) NOT NULL,
+    [InsertAuditKey]          INT            NOT NULL,
+    [UpdateAuditKey]          INT            NULL
+);
+

@@ -1,0 +1,10 @@
+6/5/2013 3:49:22 PM	This log contains information about the import schema operation into project 'Repo.Datamart' on computer 'BIGFILE' by user 'administrator'.
+6/5/2013 3:49:22 PM	Creating database project...
+6/5/2013 3:49:23 PM	Done
+6/5/2013 3:49:23 PM	Import of database schema has started.
+6/5/2013 3:49:27 PM	Adding all files to the project...
+6/5/2013 3:49:27 PM	Finished adding all files to the project.
+6/5/2013 3:49:27 PM	Done
+6/5/2013 3:49:27 PM	Import of database schema is complete.
+6/5/2013 3:49:27 PM	A summary of the import operation was saved to the log file C:\bennie\crg\src\Repo.SqlServer\Repo.Datamart\Import Schema Logs\Repo.Datamart_20130605094922.log.
+6/5/2013 3:49:27 PM	Click Finish to continue...

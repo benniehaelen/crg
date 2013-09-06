@@ -1,0 +1,10 @@
+C:\bennie\crg\CRG.Reporting\Test\CRG.Reporting.TestAuditRepository\bin\Debug\CRG.Reporting.TestAuditRepository.exe.config
+C:\bennie\crg\CRG.Reporting\Test\CRG.Reporting.TestAuditRepository\bin\Debug\CRG.Reporting.TestAuditRepository.exe
+C:\bennie\crg\CRG.Reporting\Test\CRG.Reporting.TestAuditRepository\bin\Debug\CRG.Reporting.TestAuditRepository.pdb
+C:\bennie\crg\CRG.Reporting\Test\CRG.Reporting.TestAuditRepository\bin\Debug\CRG.Reporting.Domain.dll
+C:\bennie\crg\CRG.Reporting\Test\CRG.Reporting.TestAuditRepository\bin\Debug\CRG.Reporting.Repository.dll
+C:\bennie\crg\CRG.Reporting\Test\CRG.Reporting.TestAuditRepository\bin\Debug\CRG.Reporting.Domain.pdb
+C:\bennie\crg\CRG.Reporting\Test\CRG.Reporting.TestAuditRepository\bin\Debug\CRG.Reporting.Repository.pdb
+C:\bennie\crg\CRG.Reporting\Test\CRG.Reporting.TestAuditRepository\obj\Debug\CRG.Reporting.TestAuditRepository.csprojResolveAssemblyReference.cache
+C:\bennie\crg\CRG.Reporting\Test\CRG.Reporting.TestAuditRepository\obj\Debug\CRG.Reporting.TestAuditRepository.exe
+C:\bennie\crg\CRG.Reporting\Test\CRG.Reporting.TestAuditRepository\obj\Debug\CRG.Reporting.TestAuditRepository.pdb

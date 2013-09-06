@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<DTSConfiguration>
+	<DTSConfigurationHeading>
+		<DTSConfigurationFileInfo GeneratedBy="HONEYWELL\E314667" GeneratedFromPackageName="neuDimension" GeneratedFromPackageID="{DA59D06C-A05C-454A-97CA-9F98AFC099B5}" GeneratedDate="8/13/2012 12:39:36 PM"/>
+	</DTSConfigurationHeading>
+	<Configuration ConfiguredType="Property" Path="\Package.Variables[User::StagingDB].Properties[Value]" ValueType="String">
+		<ConfiguredValue>Repo.Staging</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Variables[User::StagingSvr].Properties[Value]" ValueType="String">
+		<ConfiguredValue>localhost\SQLSERVER_R2</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Variables[User::StagingProv].Properties[Value]" ValueType="String">
+		<ConfiguredValue>SQLNCLI10.1</ConfiguredValue>
+	</Configuration>
+</DTSConfiguration>

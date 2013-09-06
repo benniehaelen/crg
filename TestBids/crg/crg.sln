@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{D183A3D8-5FD8-494B-B014-37F57B35E655}") = "Repo.Integration", "crg\Repo.Integration.dtproj", "{65B335D5-7747-49CB-9E1C-603C7094FEAB}"
+EndProject
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "Repo", "Repo\Repo.dwproj", "{12968B3B-633B-4470-B154-6015ADF237D5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65B335D5-7747-49CB-9E1C-603C7094FEAB}.Development|Default.ActiveCfg = Development
+		{65B335D5-7747-49CB-9E1C-603C7094FEAB}.Development|Default.Build.0 = Development
+		{12968B3B-633B-4470-B154-6015ADF237D5}.Development|Default.ActiveCfg = Development
+		{12968B3B-633B-4470-B154-6015ADF237D5}.Development|Default.Build.0 = Development
+		{12968B3B-633B-4470-B154-6015ADF237D5}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
